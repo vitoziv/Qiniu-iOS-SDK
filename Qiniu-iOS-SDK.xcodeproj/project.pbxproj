@@ -14,13 +14,33 @@
 		5FC25AF0183485DE00AC3D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25AEF183485DE00AC3D67 /* main.m */; };
 		5FC25AF4183485DE00AC3D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25AF3183485DE00AC3D67 /* AppDelegate.m */; };
 		5FC25AF7183485DE00AC3D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25AF5183485DE00AC3D67 /* Main.storyboard */; };
-		5FC25AFA183485DE00AC3D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25AF9183485DE00AC3D67 /* ViewController.m */; };
 		5FC25AFC183485DE00AC3D67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25AFB183485DE00AC3D67 /* Images.xcassets */; };
 		5FC25B03183485DE00AC3D67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B02183485DE00AC3D67 /* XCTest.framework */; };
 		5FC25B04183485DE00AC3D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25AE3183485DE00AC3D67 /* Foundation.framework */; };
 		5FC25B05183485DE00AC3D67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25AE7183485DE00AC3D67 /* UIKit.framework */; };
 		5FC25B0D183485DE00AC3D67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FC25B0B183485DE00AC3D67 /* InfoPlist.strings */; };
 		5FC25B0F183485DE00AC3D67 /* Qiniu_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B0E183485DE00AC3D67 /* Qiniu_iOS_SDKTests.m */; };
+		5FC25B3F183487DD00AC3D67 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B1C183487DD00AC3D67 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B40183487DD00AC3D67 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B1F183487DD00AC3D67 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B41183487DD00AC3D67 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B21183487DD00AC3D67 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B42183487DD00AC3D67 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B23183487DD00AC3D67 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B43183487DD00AC3D67 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B25183487DD00AC3D67 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B44183487DD00AC3D67 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B27183487DD00AC3D67 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B45183487DD00AC3D67 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B2B183487DD00AC3D67 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B46183487DD00AC3D67 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B2D183487DD00AC3D67 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B47183487DD00AC3D67 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B30183487DD00AC3D67 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B48183487DD00AC3D67 /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B32183487DD00AC3D67 /* ReachabilityAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B4A183487DD00AC3D67 /* QiniuPutExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B39183487DD00AC3D67 /* QiniuPutExtra.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B4B183487DD00AC3D67 /* QiniuSimpleUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B3B183487DD00AC3D67 /* QiniuSimpleUploader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B4C183487DD00AC3D67 /* QiniuUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B3E183487DD00AC3D67 /* QiniuUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B5E183489E200AC3D67 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B5D183489E200AC3D67 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FC25B6718348B3E00AC3D67 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6618348B3E00AC3D67 /* MobileCoreServices.framework */; };
+		5FC25B6918348B4F00AC3D67 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6818348B4F00AC3D67 /* CFNetwork.framework */; };
+		5FC25B6B18348B5E00AC3D67 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6A18348B5E00AC3D67 /* SystemConfiguration.framework */; };
+		5FC25B6D18348B6700AC3D67 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6C18348B6700AC3D67 /* AssetsLibrary.framework */; };
+		5FC25B6F18348B7E00AC3D67 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6E18348B7E00AC3D67 /* libz.dylib */; };
+		5FC25B7218348BE000AC3D67 /* QiniuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B7118348BE000AC3D67 /* QiniuViewController.m */; };
+		5FC25B7518348C2600AC3D67 /* QiniuPutPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B7418348C2600AC3D67 /* QiniuPutPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +65,56 @@
 		5FC25AF2183485DE00AC3D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FC25AF3183485DE00AC3D67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5FC25AF6183485DE00AC3D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5FC25AF8183485DE00AC3D67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FC25AF9183485DE00AC3D67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FC25AFB183485DE00AC3D67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5FC25B01183485DE00AC3D67 /* Qiniu-iOS-SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qiniu-iOS-SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC25B02183485DE00AC3D67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5FC25B0A183485DE00AC3D67 /* Qiniu-iOS-SDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qiniu-iOS-SDKTests-Info.plist"; sourceTree = "<group>"; };
 		5FC25B0C183485DE00AC3D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FC25B0E183485DE00AC3D67 /* Qiniu_iOS_SDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qiniu_iOS_SDKTests.m; sourceTree = "<group>"; };
+		5FC25B1B183487DD00AC3D67 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		5FC25B1C183487DD00AC3D67 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		5FC25B1D183487DD00AC3D67 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		5FC25B1E183487DD00AC3D67 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		5FC25B1F183487DD00AC3D67 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		5FC25B20183487DD00AC3D67 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		5FC25B21183487DD00AC3D67 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		5FC25B22183487DD00AC3D67 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		5FC25B23183487DD00AC3D67 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		5FC25B24183487DD00AC3D67 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		5FC25B25183487DD00AC3D67 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		5FC25B26183487DD00AC3D67 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		5FC25B27183487DD00AC3D67 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		5FC25B28183487DD00AC3D67 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		5FC25B29183487DD00AC3D67 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		5FC25B2A183487DD00AC3D67 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		5FC25B2B183487DD00AC3D67 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		5FC25B2C183487DD00AC3D67 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		5FC25B2D183487DD00AC3D67 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		5FC25B2E183487DD00AC3D67 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		5FC25B2F183487DD00AC3D67 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5FC25B30183487DD00AC3D67 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5FC25B31183487DD00AC3D67 /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		5FC25B32183487DD00AC3D67 /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		5FC25B37183487DD00AC3D67 /* QiniuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuConfig.h; sourceTree = "<group>"; };
+		5FC25B38183487DD00AC3D67 /* QiniuPutExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuPutExtra.h; sourceTree = "<group>"; };
+		5FC25B39183487DD00AC3D67 /* QiniuPutExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuPutExtra.m; sourceTree = "<group>"; };
+		5FC25B3A183487DD00AC3D67 /* QiniuSimpleUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuSimpleUploader.h; sourceTree = "<group>"; };
+		5FC25B3B183487DD00AC3D67 /* QiniuSimpleUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuSimpleUploader.m; sourceTree = "<group>"; };
+		5FC25B3C183487DD00AC3D67 /* QiniuUploadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUploadDelegate.h; sourceTree = "<group>"; };
+		5FC25B3D183487DD00AC3D67 /* QiniuUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUtils.h; sourceTree = "<group>"; };
+		5FC25B3E183487DD00AC3D67 /* QiniuUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuUtils.m; sourceTree = "<group>"; };
+		5FC25B5C183489E200AC3D67 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMBase64.h; path = QiniuSDK/3rdParty/GTMBase64/GTMBase64.h; sourceTree = SOURCE_ROOT; };
+		5FC25B5D183489E200AC3D67 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMBase64.m; path = QiniuSDK/3rdParty/GTMBase64/GTMBase64.m; sourceTree = SOURCE_ROOT; };
+		5FC25B6318348A2400AC3D67 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = QiniuSDK/3rdParty/GTMBase64/GTMDefines.h; sourceTree = SOURCE_ROOT; };
+		5FC25B6618348B3E00AC3D67 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5FC25B6818348B4F00AC3D67 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5FC25B6A18348B5E00AC3D67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5FC25B6C18348B6700AC3D67 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5FC25B6E18348B7E00AC3D67 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5FC25B7018348BE000AC3D67 /* QiniuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuViewController.h; sourceTree = "<group>"; };
+		5FC25B7118348BE000AC3D67 /* QiniuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuViewController.m; sourceTree = "<group>"; };
+		5FC25B7318348C2600AC3D67 /* QiniuPutPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuPutPolicy.h; sourceTree = "<group>"; };
+		5FC25B7418348C2600AC3D67 /* QiniuPutPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuPutPolicy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +122,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC25B6F18348B7E00AC3D67 /* libz.dylib in Frameworks */,
+				5FC25B6D18348B6700AC3D67 /* AssetsLibrary.framework in Frameworks */,
+				5FC25B6B18348B5E00AC3D67 /* SystemConfiguration.framework in Frameworks */,
+				5FC25B6918348B4F00AC3D67 /* CFNetwork.framework in Frameworks */,
+				5FC25B6718348B3E00AC3D67 /* MobileCoreServices.framework in Frameworks */,
 				5FC25AE6183485DE00AC3D67 /* CoreGraphics.framework in Frameworks */,
 				5FC25AE8183485DE00AC3D67 /* UIKit.framework in Frameworks */,
 				5FC25AE4183485DE00AC3D67 /* Foundation.framework in Frameworks */,
@@ -101,6 +168,11 @@
 		5FC25AE2183485DE00AC3D67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FC25B6E18348B7E00AC3D67 /* libz.dylib */,
+				5FC25B6C18348B6700AC3D67 /* AssetsLibrary.framework */,
+				5FC25B6A18348B5E00AC3D67 /* SystemConfiguration.framework */,
+				5FC25B6818348B4F00AC3D67 /* CFNetwork.framework */,
+				5FC25B6618348B3E00AC3D67 /* MobileCoreServices.framework */,
 				5FC25AE3183485DE00AC3D67 /* Foundation.framework */,
 				5FC25AE5183485DE00AC3D67 /* CoreGraphics.framework */,
 				5FC25AE7183485DE00AC3D67 /* UIKit.framework */,
@@ -112,11 +184,14 @@
 		5FC25AE9183485DE00AC3D67 /* Qiniu-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
+				5FC25B18183487DD00AC3D67 /* QiniuSDK */,
 				5FC25AF2183485DE00AC3D67 /* AppDelegate.h */,
 				5FC25AF3183485DE00AC3D67 /* AppDelegate.m */,
 				5FC25AF5183485DE00AC3D67 /* Main.storyboard */,
-				5FC25AF8183485DE00AC3D67 /* ViewController.h */,
-				5FC25AF9183485DE00AC3D67 /* ViewController.m */,
+				5FC25B7318348C2600AC3D67 /* QiniuPutPolicy.h */,
+				5FC25B7418348C2600AC3D67 /* QiniuPutPolicy.m */,
+				5FC25B7018348BE000AC3D67 /* QiniuViewController.h */,
+				5FC25B7118348BE000AC3D67 /* QiniuViewController.m */,
 				5FC25AFB183485DE00AC3D67 /* Images.xcassets */,
 				5FC25AEA183485DE00AC3D67 /* Supporting Files */,
 			);
@@ -150,6 +225,72 @@
 				5FC25B0B183485DE00AC3D67 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FC25B18183487DD00AC3D67 /* QiniuSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25B19183487DD00AC3D67 /* 3rdParty */,
+				5FC25B37183487DD00AC3D67 /* QiniuConfig.h */,
+				5FC25B38183487DD00AC3D67 /* QiniuPutExtra.h */,
+				5FC25B39183487DD00AC3D67 /* QiniuPutExtra.m */,
+				5FC25B3A183487DD00AC3D67 /* QiniuSimpleUploader.h */,
+				5FC25B3B183487DD00AC3D67 /* QiniuSimpleUploader.m */,
+				5FC25B3C183487DD00AC3D67 /* QiniuUploadDelegate.h */,
+				5FC25B3D183487DD00AC3D67 /* QiniuUtils.h */,
+				5FC25B3E183487DD00AC3D67 /* QiniuUtils.m */,
+			);
+			path = QiniuSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		5FC25B19183487DD00AC3D67 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25B521834883F00AC3D67 /* GTMBase64 */,
+				5FC25B1A183487DD00AC3D67 /* ASIHttpRequest */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		5FC25B1A183487DD00AC3D67 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25B1B183487DD00AC3D67 /* ASIAuthenticationDialog.h */,
+				5FC25B1C183487DD00AC3D67 /* ASIAuthenticationDialog.m */,
+				5FC25B1D183487DD00AC3D67 /* ASICacheDelegate.h */,
+				5FC25B1E183487DD00AC3D67 /* ASIDataCompressor.h */,
+				5FC25B1F183487DD00AC3D67 /* ASIDataCompressor.m */,
+				5FC25B20183487DD00AC3D67 /* ASIDataDecompressor.h */,
+				5FC25B21183487DD00AC3D67 /* ASIDataDecompressor.m */,
+				5FC25B22183487DD00AC3D67 /* ASIDownloadCache.h */,
+				5FC25B23183487DD00AC3D67 /* ASIDownloadCache.m */,
+				5FC25B24183487DD00AC3D67 /* ASIFormDataRequest.h */,
+				5FC25B25183487DD00AC3D67 /* ASIFormDataRequest.m */,
+				5FC25B26183487DD00AC3D67 /* ASIHTTPRequest.h */,
+				5FC25B27183487DD00AC3D67 /* ASIHTTPRequest.m */,
+				5FC25B28183487DD00AC3D67 /* ASIHTTPRequestConfig.h */,
+				5FC25B29183487DD00AC3D67 /* ASIHTTPRequestDelegate.h */,
+				5FC25B2A183487DD00AC3D67 /* ASIInputStream.h */,
+				5FC25B2B183487DD00AC3D67 /* ASIInputStream.m */,
+				5FC25B2C183487DD00AC3D67 /* ASINetworkQueue.h */,
+				5FC25B2D183487DD00AC3D67 /* ASINetworkQueue.m */,
+				5FC25B2E183487DD00AC3D67 /* ASIProgressDelegate.h */,
+				5FC25B2F183487DD00AC3D67 /* Reachability.h */,
+				5FC25B30183487DD00AC3D67 /* Reachability.m */,
+				5FC25B31183487DD00AC3D67 /* ReachabilityAppDelegate.h */,
+				5FC25B32183487DD00AC3D67 /* ReachabilityAppDelegate.m */,
+			);
+			path = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		5FC25B521834883F00AC3D67 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				5FC25B5C183489E200AC3D67 /* GTMBase64.h */,
+				5FC25B5D183489E200AC3D67 /* GTMBase64.m */,
+				5FC25B6318348A2400AC3D67 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +390,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC25AFA183485DE00AC3D67 /* ViewController.m in Sources */,
+				5FC25B40183487DD00AC3D67 /* ASIDataCompressor.m in Sources */,
+				5FC25B44183487DD00AC3D67 /* ASIHTTPRequest.m in Sources */,
+				5FC25B7518348C2600AC3D67 /* QiniuPutPolicy.m in Sources */,
+				5FC25B3F183487DD00AC3D67 /* ASIAuthenticationDialog.m in Sources */,
+				5FC25B43183487DD00AC3D67 /* ASIFormDataRequest.m in Sources */,
+				5FC25B4C183487DD00AC3D67 /* QiniuUtils.m in Sources */,
 				5FC25AF4183485DE00AC3D67 /* AppDelegate.m in Sources */,
+				5FC25B4A183487DD00AC3D67 /* QiniuPutExtra.m in Sources */,
+				5FC25B45183487DD00AC3D67 /* ASIInputStream.m in Sources */,
+				5FC25B48183487DD00AC3D67 /* ReachabilityAppDelegate.m in Sources */,
 				5FC25AF0183485DE00AC3D67 /* main.m in Sources */,
+				5FC25B46183487DD00AC3D67 /* ASINetworkQueue.m in Sources */,
+				5FC25B41183487DD00AC3D67 /* ASIDataDecompressor.m in Sources */,
+				5FC25B4B183487DD00AC3D67 /* QiniuSimpleUploader.m in Sources */,
+				5FC25B5E183489E200AC3D67 /* GTMBase64.m in Sources */,
+				5FC25B47183487DD00AC3D67 /* Reachability.m in Sources */,
+				5FC25B42183487DD00AC3D67 /* ASIDownloadCache.m in Sources */,
+				5FC25B7218348BE000AC3D67 /* QiniuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,11 +532,13 @@
 		5FC25B13183485DE00AC3D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qiniu-iOS-SDK/Qiniu-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "Qiniu-iOS-SDK/Qiniu-iOS-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,11 +547,13 @@
 		5FC25B14183485DE00AC3D67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qiniu-iOS-SDK/Qiniu-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "Qiniu-iOS-SDK/Qiniu-iOS-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
