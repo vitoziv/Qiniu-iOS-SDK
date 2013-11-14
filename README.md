@@ -1,9 +1,18 @@
 Qiniu-iOS-SDK
 ===
 
-fork过来的目的是想通过pod来管理第三方库。
+通过pod来管理Qiniu-iOS-SDK。
 
-###原项目地址
+##Useage
+- 在Podfile中添加
+
+  ``pod "Qiniu-iOS-SDK", :git => 'https://github.com/vitoziv/Qiniu-iOS-SDK.git', :tag => '6.0.0'``
+  
+- Run ``pod install``
+
+
+
+##原项目地址
 
 [七牛ios-sdk项目源地址](https://github.com/qiniu/ios-sdk)
 
