@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author   = { 'QIniu' => 'http://www.qiniu.com' }
   s.requires_arc = true
   s.source   = { :git => 'https://github.com/vitoziv/ios-sdk.git', :tag => 'v6.0.0' }
-  s.source_files = 'QiniuSDK/QiniuSDK/*.{h,m}', 'QiniuSDK/QiniuSDK/3rdParty/GTMBase64/*.{h,m}'
+  s.source_files = 'QiniuSDK/*.{h,m}', 'QiniuSDK/3rdParty/GTMBase64/*.{h,m}'
   s.frameworks = 'Foundation', 'Security', 'StoreKit'
  
   s.dependency 'ASIHTTPRequest', '~> 1.8.1'
