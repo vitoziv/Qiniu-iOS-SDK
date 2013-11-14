@@ -40,7 +40,7 @@
 		5FC25B6D18348B6700AC3D67 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6C18348B6700AC3D67 /* AssetsLibrary.framework */; };
 		5FC25B6F18348B7E00AC3D67 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC25B6E18348B7E00AC3D67 /* libz.dylib */; };
 		5FC25B7218348BE000AC3D67 /* QiniuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B7118348BE000AC3D67 /* QiniuViewController.m */; };
-		5FC25B7518348C2600AC3D67 /* QiniuPutPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25B7418348C2600AC3D67 /* QiniuPutPolicy.m */; };
+		5FC25BB91834A23200AC3D67 /* QiniuPutPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC25BB81834A23200AC3D67 /* QiniuPutPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,8 +113,8 @@
 		5FC25B6E18348B7E00AC3D67 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		5FC25B7018348BE000AC3D67 /* QiniuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuViewController.h; sourceTree = "<group>"; };
 		5FC25B7118348BE000AC3D67 /* QiniuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuViewController.m; sourceTree = "<group>"; };
-		5FC25B7318348C2600AC3D67 /* QiniuPutPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuPutPolicy.h; sourceTree = "<group>"; };
-		5FC25B7418348C2600AC3D67 /* QiniuPutPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuPutPolicy.m; sourceTree = "<group>"; };
+		5FC25BB71834A23200AC3D67 /* QiniuPutPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuPutPolicy.h; sourceTree = "<group>"; };
+		5FC25BB81834A23200AC3D67 /* QiniuPutPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuPutPolicy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,8 +188,6 @@
 				5FC25AF2183485DE00AC3D67 /* AppDelegate.h */,
 				5FC25AF3183485DE00AC3D67 /* AppDelegate.m */,
 				5FC25AF5183485DE00AC3D67 /* Main.storyboard */,
-				5FC25B7318348C2600AC3D67 /* QiniuPutPolicy.h */,
-				5FC25B7418348C2600AC3D67 /* QiniuPutPolicy.m */,
 				5FC25B7018348BE000AC3D67 /* QiniuViewController.h */,
 				5FC25B7118348BE000AC3D67 /* QiniuViewController.m */,
 				5FC25AFB183485DE00AC3D67 /* Images.xcassets */,
@@ -234,6 +232,8 @@
 				5FC25B37183487DD00AC3D67 /* QiniuConfig.h */,
 				5FC25B38183487DD00AC3D67 /* QiniuPutExtra.h */,
 				5FC25B39183487DD00AC3D67 /* QiniuPutExtra.m */,
+				5FC25BB71834A23200AC3D67 /* QiniuPutPolicy.h */,
+				5FC25BB81834A23200AC3D67 /* QiniuPutPolicy.m */,
 				5FC25B3A183487DD00AC3D67 /* QiniuSimpleUploader.h */,
 				5FC25B3B183487DD00AC3D67 /* QiniuSimpleUploader.m */,
 				5FC25B3C183487DD00AC3D67 /* QiniuUploadDelegate.h */,
@@ -392,7 +392,6 @@
 			files = (
 				5FC25B40183487DD00AC3D67 /* ASIDataCompressor.m in Sources */,
 				5FC25B44183487DD00AC3D67 /* ASIHTTPRequest.m in Sources */,
-				5FC25B7518348C2600AC3D67 /* QiniuPutPolicy.m in Sources */,
 				5FC25B3F183487DD00AC3D67 /* ASIAuthenticationDialog.m in Sources */,
 				5FC25B43183487DD00AC3D67 /* ASIFormDataRequest.m in Sources */,
 				5FC25B4C183487DD00AC3D67 /* QiniuUtils.m in Sources */,
@@ -402,6 +401,7 @@
 				5FC25B48183487DD00AC3D67 /* ReachabilityAppDelegate.m in Sources */,
 				5FC25AF0183485DE00AC3D67 /* main.m in Sources */,
 				5FC25B46183487DD00AC3D67 /* ASINetworkQueue.m in Sources */,
+				5FC25BB91834A23200AC3D67 /* QiniuPutPolicy.m in Sources */,
 				5FC25B41183487DD00AC3D67 /* ASIDataDecompressor.m in Sources */,
 				5FC25B4B183487DD00AC3D67 /* QiniuSimpleUploader.m in Sources */,
 				5FC25B5E183489E200AC3D67 /* GTMBase64.m in Sources */,
@@ -620,6 +620,7 @@
 				5FC25B14183485DE00AC3D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FC25B15183485DE00AC3D67 /* Build configuration list for PBXNativeTarget "Qiniu-iOS-SDKTests" */ = {
 			isa = XCConfigurationList;
@@ -628,6 +629,7 @@
 				5FC25B17183485DE00AC3D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
