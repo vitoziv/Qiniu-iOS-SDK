@@ -6,7 +6,7 @@ Qiniu-iOS-SDK
 ##Useage
 - 在Podfile中添加
 
-  ``pod "Qiniu-iOS-SDK", :git => 'https://github.com/vitoziv/Qiniu-iOS-SDK.git', :tag => '6.0.0'``
+  ``pod 'Qiniu-iOS-SDK', :git => 'https://github.com/vitoziv/Qiniu-iOS-SDK.git', :tag => '6.0.0'``
   
 - Run ``pod install``
 
